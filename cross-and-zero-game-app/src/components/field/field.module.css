@@ -1,0 +1,17 @@
+.game-field {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.game-field button {
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+}
+.game-field button:focus,
+.game-field button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
